@@ -1,0 +1,11 @@
+.banner {
+    color: white;
+    object-fit: contain;
+    height: 448px;
+    opacity: 0.5 Darkened rgb(16, 16, 17);
+}
+
+
+.banner__info{
+    text-align: center;
+}
