@@ -6,13 +6,13 @@ function About() {
             <div>
                 <h1>About the Intentship</h1>
                 <p>
-                    
+                    lorem ipsum
                 </p>
                 <p>
-
+                    lorem ipsum
                 </p>
                 <p>
-
+                    lorem ipsum
                 </p>
             </div>
             <div>
