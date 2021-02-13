@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import '../css/Banner.css';
-import background from '../assets/img/christina.png';
+
 
 export class Banner extends Component {
     render() {
         return (
             <header
-            style={{
-                backgroundSize: "cover",
-                backgroundImage: `url(${background})`
-            }}
              className="banner">
                  <div className="banner__info">
                     <div>
@@ -23,7 +19,7 @@ export class Banner extends Component {
                         Graphics and Product design.
                     </div>
                     <div>
-                        <button>Apply Now</button>
+                        <button className="banner__button">Apply Now</button>
                     </div>
                  </div>
                
