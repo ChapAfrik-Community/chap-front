@@ -1,0 +1,19 @@
+.teamMemberItem{
+    text-align: center;
+}
+
+
+.teamMemberItem__img{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.teamMemberItem__name{
+    font-weight: bold;
+}
+
+
+.teamMemberItem__nation{
+    font-size: small;
+}
