@@ -1,0 +1,28 @@
+.aboutAfrik{
+    background-color: #fff;
+    margin: 20px 20px 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.aboutAfrik__title{
+    width: 1800px;
+    height: 400px;
+}
+
+
+.aboutAfrik__title_1{
+   text-align: center;
+   margin-top: 280px;
+}
+
+.aboutAfrik__paragraph> div{
+    margin-bottom: 40px;
+}
+
+.aboutAfrikParagraph__title{
+    margin-bottom: 40px;
+}
+
+
