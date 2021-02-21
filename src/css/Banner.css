@@ -25,6 +25,11 @@
     position: relative;
     text-align: center;
     color: #f3f3f3;
+    line-height: 2.5em;
+}
+
+h1{
+    font-size: 40px;
 }
 
 .banner__info > div{
