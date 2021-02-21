@@ -1,5 +1,5 @@
 .about{
-    margin: 100px;
+    padding: 100px;
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@
 .about_text{
     margin: 10px;
     width: 40%;
-    line-height: 2.5em;
+    line-height: 2.5em; 
 }
 
 .about_text > p{
