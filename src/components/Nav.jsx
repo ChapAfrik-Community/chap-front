@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import '../css/Nav.css';
-import ChapAfric from '../assets/img/ChapAfric.png';
+import chapafrik from '../assets/img/chapafrik.png';
 
 function Nav() {
     const [show, handleShow] = useState(false);
@@ -22,7 +22,7 @@ function Nav() {
                  <div>
                     <img 
                         className="nav__logo"
-                        src={ChapAfric} alt="logo"/>
+                        src={chapafrik} alt="logo"/>
                  </div>
                 <div className="nav__link">
                     <ul>

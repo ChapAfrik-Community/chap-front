@@ -32,8 +32,8 @@
 
 .nav__logo{
     position: fixed ;
-    left: 30px;
-    width: 180px;
+    left: 20px;
+    width: 150px;
     object-fit: contain;
 }
 
