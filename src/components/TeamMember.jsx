@@ -7,6 +7,9 @@ import herbert from '../assets/img/herbert.png'
 import michael from '../assets/img/michael.png'
 import abdul from '../assets/img/abdul.png'
 import tiffany from '../assets/img/tiffany.png'
+import kudirat from '../assets/img/kudirat.png'
+import yedidia from '../assets/img/yedidia.png'
+import you from '../assets/img/you.png'
 
 function TeamMember() {
     return (
@@ -21,35 +24,52 @@ function TeamMember() {
             <div className="teamMember__teams">
                 <TeamMemberItem
                 img={josh}
-                fullname="venceslas"
+                fullname="Venceslas Joshua"
                 nation="Congo-kinshasa"
                 />
                 <TeamMemberItem
                 img={esther}
-                fullname="venceslas"
-                nation="Congo-kinshasa"
+                fullname="Esther Daniel "
+                nation="Nigeria"
                 />
                 <TeamMemberItem
                 img={herbert}
-                fullname="venceslas"
-                nation="Congo-kinshasa"
+                fullname="Herbert Olinga"
+                nation="Uganda"
                 />
             </div>
             <div className="teamMember__teams">
                 <TeamMemberItem
                     img={michael}
-                    fullname="venceslas"
-                    nation="Congo-kinshasa"
+                    fullname="Michael Shumaker"
+                    nation="Nigeria"
                     />
                     <TeamMemberItem
                     img={abdul}
-                    fullname="venceslas"
-                    nation="Congo-kinshasa"
+                    fullname="Abdul Rasheed Dan-Abu"
+                    nation="Nigeria"
                     />
                     <TeamMemberItem
                     img={tiffany}
-                    fullname="venceslas"
+                    fullname="Tiffany Kisero"
                     nation="Congo-kinshasa"
+                    />
+                </div>
+                <div className="teamMember__teams">
+                <TeamMemberItem
+                    img={kudirat}
+                    fullname="Kudirat Bakare"
+                    nation="Kenya"
+                    />
+                    <TeamMemberItem
+                    img={yedidia}
+                    fullname="Yedidya Lunghe Hyongo"
+                    nation="Nigeria"
+                    />
+                    <TeamMemberItem
+                    img={you}
+                    fullname="You"
+                    nation="???"
                     />
                 </div>
         </section>
