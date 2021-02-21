@@ -1,6 +1,13 @@
 import React from 'react'
 import '../css/TeamMember.css';
 import TeamMemberItem from './TeamMemberItem';
+import josh from '../assets/img/josh.png'
+import esther from '../assets/img/esther.png'
+import herbert from '../assets/img/herbert.png'
+import michael from '../assets/img/michael.png'
+import abdul from '../assets/img/abdul.png'
+import tiffany from '../assets/img/tiffany.png'
+
 function TeamMember() {
     return (
         <section className="teamMember">
@@ -13,34 +20,34 @@ function TeamMember() {
 
             <div className="teamMember__teams">
                 <TeamMemberItem
-                img="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2011/10/christucker1.jpg?w=525"
+                img={josh}
                 fullname="venceslas"
                 nation="Congo-kinshasa"
                 />
                 <TeamMemberItem
-                img="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2011/10/christucker1.jpg?w=525"
+                img={esther}
                 fullname="venceslas"
                 nation="Congo-kinshasa"
                 />
                 <TeamMemberItem
-                img="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2011/10/christucker1.jpg?w=525"
+                img={herbert}
                 fullname="venceslas"
                 nation="Congo-kinshasa"
                 />
             </div>
             <div className="teamMember__teams">
                 <TeamMemberItem
-                    img="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2011/10/christucker1.jpg?w=525"
+                    img={michael}
                     fullname="venceslas"
                     nation="Congo-kinshasa"
                     />
                     <TeamMemberItem
-                    img="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2011/10/christucker1.jpg?w=525"
+                    img={abdul}
                     fullname="venceslas"
                     nation="Congo-kinshasa"
                     />
                     <TeamMemberItem
-                    img="https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2011/10/christucker1.jpg?w=525"
+                    img={tiffany}
                     fullname="venceslas"
                     nation="Congo-kinshasa"
                     />

@@ -1,12 +1,11 @@
 .teamMemberItem{
     text-align: center;
+    margin: auto;
 }
 
 
 .teamMemberItem__img{
     width: 50%;
-    height: 100%;
-    border-radius: 50%;
 }
 
 .teamMemberItem__name{
