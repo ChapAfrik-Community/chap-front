@@ -1,6 +1,5 @@
 .teamMember{
-    margin: 10px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .teamMember__title{
@@ -15,5 +14,5 @@
 
 .teamMember__teams{
     display: flex;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
 }

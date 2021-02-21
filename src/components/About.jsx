@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/About.css';
-import neige from '../assets/img/neige.jpg';
+import aboutimg from '../assets/img/aboutimg.jpg';
 function About() {
     return (
         <section id="#about" className="about">
@@ -23,7 +23,7 @@ function About() {
                 </p>
             </div>
             <div>
-                <img src={neige} 
+                <img src={aboutimg} 
                 alt="intership" 
                 className="about__image"/>
             </div>
