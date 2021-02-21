@@ -30,12 +30,12 @@
 }
 
 
-/* .nav__logo{
+.nav__logo{
     position: fixed ;
-    left: 20px;
-    width: 80px;
+    left: 30px;
+    width: 180px;
     object-fit: contain;
-} */
+}
 
 /* .nav__link{
     position: fixed;

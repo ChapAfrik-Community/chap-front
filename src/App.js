@@ -6,7 +6,7 @@ import Nav from './components/Nav';
 import JoinUs from './components/JoinUs';
 import TeamMember from './components/TeamMember';
 import ReadyJoin from './components/ReadyJoin';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
       {/* ready to join us  */}
       <ReadyJoin/>
       {/* Footer  */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
