@@ -1,0 +1,15 @@
+.nav__logo
+{
+ width: 120px;
+ object-fit: contain;
+}
+
+.nav__white{
+    background-color: #fff;
+    color: #111 !important;
+}
+
+
+.nav__white .nav-link{
+    color: #111 !important;
+}
