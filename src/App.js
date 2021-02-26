@@ -1,33 +1,28 @@
 import './App.css';
-import About from './components/About';
-import AboutChapAfrik from './components/AboutChapAfrik';
-import Banner from './components/Banner';
-import Nav from './components/Nav';
-import JoinUs from './components/JoinUs';
-import TeamMember from './components/TeamMember';
-import ReadyJoin from './components/ReadyJoin';
-// import Footer from './components/Footer';
+import Header from './components/header/header.component';
+import Banner from './components/banner/banner.component';
+import {BrowserRouter as Router} from 'react-router-dom';
+import InternShip from './components/internship/internship.component';
+import Join from './components/join/join.component';
+import Member from './components/member/member.component';
+import ReadyJoin from './components/readyJoin/readyJoin.component';
+import Footer from './components/footer/footer.component';
 
 function App() {
   return (
-    <div className="App">
-      {/* navbar */}
-      <Nav/>
-      {/* banner */}
+    <Router>
+      <div className="App">
+      <Header/>
       <Banner/>
-      {/* about the intentship  */}
-      <About/>
-      {/* about chapAfrik */}
-      <AboutChapAfrik/>
-      {/* JoinUs components */}
-      <JoinUs/>
-      {/* our team members */}
-      <TeamMember/>
-      {/* ready to join us  */}
-      <ReadyJoin/>
-      {/* Footer  */}
-      {/* <Footer/> */}
-    </div>
+      <div className="container">
+        <InternShip/>
+        <Join/>
+        <Member/>
+        <ReadyJoin/>
+      </div>
+      <Footer/>
+      </div>
+    </Router>
   );
 }
 
