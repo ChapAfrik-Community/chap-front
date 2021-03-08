@@ -3,7 +3,7 @@ import aboutimg from  '../../assets/images/aboutimg.jpg'
 
 function Internship() {
     return (
-        <section className="mt-10">
+        <section className="mt-30" style={{marginTop: '50px'}}>
             <div className="row">
                 <div className="col-md-6 mt-4">
                     <h1>About the Intentship</h1>

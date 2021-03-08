@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import { Link } from 'react-router-dom';
 import './header.component.css';
 import ChapAfrik from '../../assets/images/ChapAfrik.png';
+import ChapAfrikWhite from '../../assets/images/chapAfrik-white.png';
 
 function Header() {
     const [show, handleShow] = useState(false);
@@ -22,10 +23,18 @@ function Header() {
     <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${show && "nav__white"}`}>
         <div className="container-fluid">
             <Link className="navbar-brand" to="#">
+            {show ? (
+                <img
+                className="nav__logo1" 
+                src={ChapAfrik} 
+                alt="logo1"/>
+            ):(
             <img
-            className="nav__logo" 
-            src={ChapAfrik} 
-            alt="logo"/>
+                className="nav__logo2" 
+                src={ChapAfrikWhite} 
+                alt="logo2"/>
+            )}            
+            
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

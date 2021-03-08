@@ -31,6 +31,10 @@
     margin-top: 10px;
 }
 
+p{
+    font-size: 20px;
+}
+
 .btn-danger{
     margin: 10px  !important;
     padding: 10px 40px !important;

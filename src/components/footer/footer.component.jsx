@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link} from 'react-router-dom';
-import ChapAfrik from '../../assets/images/ChapAfrik.png';
+import ChapAfrikWhite from '../../assets/images/chapAfrik-white.png';
 
 function Footer() {
     return (
@@ -19,7 +19,7 @@ function Footer() {
         
                 {/* <!-- Links --> */}
                 <img 
-                src={ChapAfrik}
+                src={ChapAfrikWhite}
                 alt="logo2"
                 style={{
                     width:'120px',

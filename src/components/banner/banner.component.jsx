@@ -7,8 +7,8 @@ function Banner() {
         className="banner">
             <div className="banner__info">
                <div>
-                   <h1>ChapAfrik Design </h1>
-                   <h1>Internship 2021</h1>
+                   <h1 className='font-weight-bold'>ChapAfrik Design </h1>
+                   <h1 className='font-weight-bold'>Internship 2021</h1>
                    <p>For Aspiring Young People</p>
                </div>
                <div>
@@ -17,7 +17,7 @@ function Banner() {
                    Graphics and Product design.
                </div>
                <div>
-                   <button className="btn btn-danger round">Apply Now</button>
+                   <a href='https://forms.gle/cudtLhsYLHYHnovT7' target="_blank" rel='noopener noreferrer' className="btn btn-danger round">Apply Now</a>
                </div>
             </div>
           

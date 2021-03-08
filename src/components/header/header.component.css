@@ -1,4 +1,10 @@
-.nav__logo
+.nav__logo1
+{
+ width: 120px;
+ object-fit: contain;
+}
+
+.nav__logo2
 {
  width: 120px;
  object-fit: contain;
