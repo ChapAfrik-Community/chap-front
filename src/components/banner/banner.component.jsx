@@ -7,8 +7,8 @@ function Banner() {
         className="banner">
             <div className="banner__info">
                <div>
-                   <h1>ChapAfrik Design </h1>
-                   <h1>Internship 2021</h1>
+                   <h1 className='font-weight-bold'>ChapAfrik Design </h1>
+                   <h1 className='font-weight-bold'>Internship 2021</h1>
                    <p>For Aspiring Young People</p>
                </div>
                <div>
