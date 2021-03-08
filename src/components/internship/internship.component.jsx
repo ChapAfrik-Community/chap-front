@@ -6,7 +6,7 @@ function Internship() {
         <section className="mt-30" style={{marginTop: '50px'}}>
             <div className="row">
                 <div className="col-md-6 mt-4">
-                    <h1>About the Intentship</h1>
+                    <h1 className='font-weight-bold'>About the Intentship</h1>
                     <p>
                         The ChapAfrik intership is a 3-month remote intership program targeting entry level designers in the field of 
                         UI/UX,Graphics and Product design. The goal is to make you Job Ready in 5 months of intensive hands-on, training, 
