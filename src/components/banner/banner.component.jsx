@@ -17,7 +17,7 @@ function Banner() {
                    Graphics and Product design.
                </div>
                <div>
-                   <button className="btn btn-danger round">Apply Now</button>
+                   <a href='https://forms.gle/cudtLhsYLHYHnovT7' target="_blank" rel='noopener noreferrer' className="btn btn-danger round">Apply Now</a>
                </div>
             </div>
           

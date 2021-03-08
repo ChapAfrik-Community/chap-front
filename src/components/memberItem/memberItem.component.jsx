@@ -10,6 +10,8 @@ function MemberItem({img, name, nationality}) {
             className="img-fluid"
              src={img} 
              alt="img_name"/>
+             <br/>
+             <br/>
             <p className="font-weight-bold">{name}</p>
             <p className="small">{nationality}</p>
         </div>
