@@ -1,0 +1,16 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-dange{
+    padding: 10px 40px !important;
+    background-color: #FF220C !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border-radius: 5% !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
