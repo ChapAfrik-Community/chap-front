@@ -1,0 +1,11 @@
+.btn-dange{
+    margin-left: 40%;
+    padding: 10px 40px !important;
+    background-color: #FF220C !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border-radius: 5% !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}

@@ -1,5 +1,7 @@
 import React from 'react'
 import JoinItem from '../joinItem/joinItem.component';
+import './join.component.css';
+import { Link } from 'react-router-dom';
 
 function Join() {
     return (
@@ -27,6 +29,15 @@ function Join() {
                 <JoinItem
                 comment="Job placement opportunities"
                 />
+            </div>
+            <div
+            className="button"
+             style={{
+                marginTop:'40px',
+                marginBottom:'30pxt',
+                alignItems:'center'
+                }}>
+                <Link to="/privacy-policy" target='_blank' className="btn-dange">Join our Community</Link>
             </div>
         </section>
     )
