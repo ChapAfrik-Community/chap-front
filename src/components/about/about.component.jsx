@@ -6,7 +6,7 @@ function About() {
     return (
         <section style={{
             marginBottom:'40px',
-            marginTop:'30px'
+            marginTop:'20px'
         }}>
             <div className="row">
                 <div className="col-md-6 mt-4 center">

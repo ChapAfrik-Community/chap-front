@@ -1,5 +1,11 @@
 
 .center > h1{
-    margin-top: 50%;
+    margin-top: 52%;
     margin-bottom: auto;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .center > h1 {
+        margin-top: 5%;
+    }
 }

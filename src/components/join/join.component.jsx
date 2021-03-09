@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Join() {
     return (
-        <section className=""  style={{marginTop: '70px'}}>
+        <section className=""  style={{marginTop:'70px'}}>
             <div className="text-center mt-4">
                 <h3 className='font-weight-bold'>Want to join Us?</h3>
                 <h2 className="font-weight-bold">Here's what you'll get</h2>
@@ -29,16 +29,16 @@ function Join() {
                 <JoinItem
                 comment="Job placement opportunities"
                 />
+               
             </div>
             <div
-            className="button"
-             style={{
-                marginTop:'40px',
-                marginBottom:'30pxt',
-                alignItems:'center'
-                }}>
-                <Link to="/privacy-policy" target='_blank' className="btn-dange">Join our Community</Link>
-            </div>
+                className="button"
+                style={{
+                    marginTop:'20px',
+                    marginBottom:'30px'
+                    }}>
+                    <Link to='/blank' className="btn-dange">Join our Community</Link>
+                </div>
         </section>
     )
 }

@@ -21,7 +21,7 @@ function App() {
         <Join/>
         <Member/>
         <ReadyJoin/>
-        <Route path='/privacy-policy' component={() => { 
+        <Route path='/blank' component={() => { 
             window.location.href = 'https://www.google.com'; 
             return null;
         }}/>

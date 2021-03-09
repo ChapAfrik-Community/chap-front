@@ -1,5 +1,10 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn-dange{
-    margin-left: 40%;
     padding: 10px 40px !important;
     background-color: #FF220C !important;
     border: none !important;
