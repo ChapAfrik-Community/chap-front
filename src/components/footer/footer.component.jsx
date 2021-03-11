@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link} from 'react-router-dom';
+import { HashLink as Link} from 'react-router-hash-link';
 import ChapAfrikWhite from '../../assets/images/chapAfrik-white.png';
 
 function Footer() {
@@ -45,10 +45,10 @@ function Footer() {
         
                 <ul className="list-unstyled">
                   <li>
-                    <Link className="nav-link text-white" to="#">About us</Link>
+                    <Link className="nav-link text-white" to="#about">About us</Link>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Meet our Team</Link>
+                    <Link className="nav-link text-white" to="#member">Meet our Team</Link>
                   </li>
                   <li>
                     <Link className="nav-link text-white" to="#">Contact us</Link>
@@ -69,10 +69,10 @@ function Footer() {
         
                 <ul className="list-unstyled">
                   <li>
-                    <Link className="nav-link text-white" to="#">About</Link>
+                    <Link className="nav-link text-white" to="#about">About</Link>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Apply Now</Link>
+                    <Link className="nav-link text-white" to="#readyjoin">Apply Now</Link>
                   </li>
                   <li>
                     <Link className="nav-link text-white" to="#">Terms & policy</Link>

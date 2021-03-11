@@ -4,7 +4,9 @@ import AboutItem from './aboutitem/aboutitem.component';
 
 function About() {
     return (
-        <section style={{
+        <section
+        id="about"
+         style={{
             marginBottom:'40px',
             marginTop:'20px'
         }}>
