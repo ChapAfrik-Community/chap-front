@@ -3,9 +3,9 @@ import aboutimg from  '../../assets/images/aboutimg.jpg'
 
 function Internship() {
     return (
-        <section id="internship" className="mt-30" style={{marginTop: '50px'}}>
+        <section id="internship">
             <div className="row">
-                <div className="col-md-6 mt-4">
+                <div className="col-md-6">
                     <h1 className='font-weight-bold'>About the Intentship</h1>
                     <p>
                         The ChapAfrik intership is a 3-month remote intership program targeting entry level designers in the field of 
