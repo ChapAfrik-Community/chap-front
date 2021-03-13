@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import { Link } from 'react-router-dom';
+import { HashLink as Link} from 'react-router-hash-link';
 import './header.component.css';
 import ChapAfrik from '../../assets/images/ChapAfrik.png';
 import ChapAfrikWhite from '../../assets/images/chapAfrik-white.png';
@@ -42,10 +42,10 @@ function Header() {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                <Link className="nav-link text-light active" aria-current="page" to="#">About Us</Link>
+                <Link className="nav-link text-light active" aria-current="page" to="#about">About Us</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-light" to="#">Meet Us</Link>
+                <Link className="nav-link text-light" to="#member">Meet Us</Link>
                 </li>
                 <li className="nav-item">
                 <Link className="nav-link text-light" to="#">Contact Us</Link>

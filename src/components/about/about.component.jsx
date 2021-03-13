@@ -4,13 +4,15 @@ import AboutItem from './aboutitem/aboutitem.component';
 
 function About() {
     return (
-        <section style={{
+        <section
+        id="about"
+         style={{
             marginBottom:'40px',
             marginTop:'20px'
         }}>
             <div className="row">
                 <div className="col-md-6 mt-4 center">
-                    <h1 className="font-weight-bold ">About</h1>
+                    <h1 className="font-weight-bold">About</h1>
                 </div>
                 <div className="col-md-6">
                    <AboutItem

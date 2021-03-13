@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link} from 'react-router-dom';
+import { HashLink as Link} from 'react-router-hash-link';
 import ChapAfrikWhite from '../../assets/images/chapAfrik-white.png';
 
 function Footer() {
@@ -45,10 +45,10 @@ function Footer() {
         
                 <ul className="list-unstyled">
                   <li>
-                    <Link className="nav-link text-white" to="#">About us</Link>
+                    <Link className="nav-link text-white" to="#about">About us</Link>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Meet our Team</Link>
+                    <Link className="nav-link text-white" to="#member">Meet our Team</Link>
                   </li>
                   <li>
                     <Link className="nav-link text-white" to="#">Contact us</Link>
@@ -69,10 +69,10 @@ function Footer() {
         
                 <ul className="list-unstyled">
                   <li>
-                    <Link className="nav-link text-white" to="#">About</Link>
+                    <Link className="nav-link text-white" to="#about">About</Link>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Apply Now</Link>
+                   <a href='https://forms.gle/cudtLhsYLHYHnovT7' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Apply Now</a>
                   </li>
                   <li>
                     <Link className="nav-link text-white" to="#">Terms & policy</Link>
@@ -93,16 +93,16 @@ function Footer() {
         
                 <ul className="list-unstyled">
                   <li>
-                    <Link className="nav-link text-white" to="#">Email us</Link>
+                   <a href='https://#' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Instagram</a>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Twitter</Link>
+                   <a href='https://twitter.com/chapafrik' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Twitter</a> 
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Instagram</Link>
+                   <a href='https://www.linkedin.com/company/chapafrik' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Linkedin</a>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Slack</Link>
+                   <a href='https://join.slack.com/t/chapafrik/shared_invite/zt-nmkpw4dd-w_mIdMC39OoR_H4y_P6LpA' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Slack</a>
                   </li>
                 </ul>
         
