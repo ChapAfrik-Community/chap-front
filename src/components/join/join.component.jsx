@@ -1,7 +1,6 @@
 import React from 'react'
 import JoinItem from '../joinItem/joinItem.component';
 import './join.component.css';
-import { Link } from 'react-router-dom';
 
 function Join() {
     return (
@@ -37,7 +36,7 @@ function Join() {
                     marginTop:'20px',
                     marginBottom:'30px'
                     }}>
-                    <Link to='/blank' className="btn-dange">Join our Community</Link>
+                    <a href='https://join.slack.com/t/chapafrik/shared_invite/zt-nmkpw4dd-w_mIdMC39OoR_H4y_P6LpA' target="_blank" rel='noopener noreferrer' className="btn btn-danger round">Join our community</a>
                 </div>
         </section>
     )
