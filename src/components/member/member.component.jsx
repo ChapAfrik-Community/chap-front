@@ -51,17 +51,17 @@ function Member() {
                     <MemberItem
                     img={tiffany}
                     name="Tiffany Kisero"
-                    nationality="Congo-kinshasa"
+                    nationality="Kenya"
                     />
                     <MemberItem
                     img={kudirat}
                     name="Kudirat Bakare"
-                    nationality="Kenya"
+                    nationality="Nigeria"
                     />
                     <MemberItem
                     img={yedidia}
                     name="Yedidya Lunghe Hyongo"
-                    nationality="Nigeria"
+                    nationality="Congo-kinshasa"
                     />
                     <MemberItem
                     img={you}
