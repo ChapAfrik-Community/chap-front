@@ -1,13 +1,15 @@
 import './App.css';
+import {BrowserRouter as Router,Route} from 'react-router-dom';
+// import components 
 import Header from './components/header/header.component';
 import Banner from './components/banner/banner.component';
-import {BrowserRouter as Router,Route} from 'react-router-dom';
 import InternShip from './components/internship/internship.component';
 import Join from './components/join/join.component';
 import Member from './components/member/member.component';
 import ReadyJoin from './components/readyJoin/readyJoin.component';
 import Footer from './components/footer/footer.component';
 import About from './components/about/about.component';
+import Contact from './components/contact/contact.component';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <About/>
         <Join/>
         <Member/>
+        <Contact/>
         <ReadyJoin/>
         <Route path='/blank' component={() => { 
             window.location.href = 'https://www.google.com'; 

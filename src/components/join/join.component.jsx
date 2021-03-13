@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 function Join() {
     return (
-        <section id="join" className=""  style={{marginTop:'70px'}}>
-            <div className="text-center mt-4">
+        <section id="join">
+            <div className="text-center">
                 <h3 className='font-weight-bold'>Want to join Us?</h3>
                 <h2 className="font-weight-bold">Here's what you'll get</h2>
             </div>

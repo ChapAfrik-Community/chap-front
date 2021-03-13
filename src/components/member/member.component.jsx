@@ -15,7 +15,7 @@ import MemberItem from '../memberItem/memberItem.component';
 
 function Member() {
     return (
-        <section id="member" className="meet"  style={{marginTop: '90px'}}>
+        <section id="member">
             <div className="text-center">
                 <h2 className='font-weight-bold'>Meet our team</h2>
                 <p className="mt-2">Our team is made up of expert Designers, Developers,Product Managers and Marketers <br/>

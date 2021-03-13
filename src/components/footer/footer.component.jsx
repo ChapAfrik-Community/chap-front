@@ -51,7 +51,7 @@ function Footer() {
                     <Link className="nav-link text-white" to="#member">Meet our Team</Link>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Contact us</Link>
+                    <Link className="nav-link text-white" to="#contact">Contact us</Link>
                   </li>
                   
                 </ul>

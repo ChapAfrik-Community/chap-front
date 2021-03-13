@@ -10,3 +10,8 @@ body{
   margin: 0;
   padding: 0;
 }
+
+section{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
