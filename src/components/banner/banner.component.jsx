@@ -7,16 +7,16 @@ function Banner() {
         className="banner">
             <div className="banner__info">
                <div>
-                   <h1 className='font-weight-bold'>ChapAfrik Design </h1>
-                   <h1 className='font-weight-bold'>Internship 2021</h1>
-                   <p>For Aspiring Young People</p>
+                   <h1 className='font-weight-bold animation'>ChapAfrik Design </h1>
+                   <h1 className='font-weight-bold animation'>Internship 2021</h1>
+                   <p className="animation">For Aspiring Young People</p>
                </div>
-               <div>
+               <div className="animation">
                    A 3-month remote internship program targeting <br/> 
                    entry level designers in the field of UI/UX, 
                    Graphics and Product design.
                </div>
-               <div>
+               <div className="animation">
                    <a href='https://forms.gle/cudtLhsYLHYHnovT7' target="_blank" rel='noopener noreferrer' className="btn btn-danger round">Apply Now</a>
                </div>
             </div>

@@ -22,10 +22,10 @@ function Contact() {
         <section id="contact">
             <div class="row">
                 <div className="col-md-6 contact-title">
-                    <h1 className="text-center font-weight-bold">Contact Us</h1>
+                    <h1 className="text-center font-weight-bold contact-title">Contact Us</h1>
                 </div>
             <div className="col-md-6 m-auto" >
-                <div className="card card-body">
+                <div className="card card-body contact-card">
                     {/* <h2 className="font-weight-bold">Get In Touch </h2> */}
                     <form onSubmit={onSendMail} className="form">
                         <div className="form-group">

@@ -6,8 +6,8 @@ function Join() {
     return (
         <section id="join">
             <div className="text-center">
-                <h3 className='font-weight-bold'>Want to join Us?</h3>
-                <h2 className="font-weight-bold">Here's what you'll get</h2>
+                <h3 className='font-weight-bold join-title'>Want to join Us?</h3>
+                <h2 className="font-weight-bold about join-title">Here's what you'll get</h2>
             </div>
             <div className="row">
                 <JoinItem

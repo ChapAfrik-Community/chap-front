@@ -1,3 +1,4 @@
+import React,{ useEffect} from 'react'
 import './App.css';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 // import components 
@@ -10,8 +11,47 @@ import ReadyJoin from './components/readyJoin/readyJoin.component';
 import Footer from './components/footer/footer.component';
 import About from './components/about/about.component';
 import Contact from './components/contact/contact.component';
+import ScrollReveal from 'scrollreveal';
+
+
+
 
 function App() {
+
+
+  const sr = ScrollReveal({
+    distance: '40px',
+    duration: 1800,
+    reset: true
+  });
+  
+  useEffect(()=>{
+    // eslint-disable-next-line
+    sr.reveal(`.animation, .about-animation,.about-item,
+    .join-title,.join-item, .member-name, .member-nation, ready-title, .footer-title, .footer-item`,{
+      origin: 'top',
+      interval: 200
+    });
+
+    // eslint-disable-next-line
+    sr.reveal(`.about-img, .contact-card`,{
+      origin: 'right'
+    })
+
+
+    // eslint-disable-next-line
+    sr.reveal(`.about-title, .contact-title`,{
+      origin: 'left'
+    });
+
+
+    // eslint-disable-next-line
+    sr.reveal(`.member-avatar, .button-ready, .footer-logo`,{
+      origin:'top'
+    })
+
+  },'')
+
   return (
     <Router>
       <div className="App">

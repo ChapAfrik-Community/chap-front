@@ -7,13 +7,13 @@ function MemberItem({img, name, nationality}) {
             style={{
                 width:'50%'
             }}
-            className="img-fluid"
+            className="img-fluid member-avatar"
              src={img} 
              alt="img_name"/>
              <br/>
              <br/>
-            <p className="font-weight-bold">{name}</p>
-            <p className="small">{nationality}</p>
+            <p className="font-weight-bold member-name">{name}</p>
+            <p className="small member-nation">{nationality}</p>
         </div>
     )
 }
