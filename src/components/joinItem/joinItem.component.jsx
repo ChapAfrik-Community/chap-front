@@ -10,7 +10,7 @@ function JoinItem({comment}) {
              }}
             className="joinUsItem__icon"
             />
-            <p className="text-center font-weight-bold">{comment}</p>
+            <p className="text-center font-weight-bold join-item">{comment}</p>
         </div>
     )
 }

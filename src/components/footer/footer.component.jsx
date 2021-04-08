@@ -25,7 +25,7 @@ function Footer() {
                     width:'120px',
                     objectFit:'contain'
                 }}
-                className="navbar-brand mt-3 mb-4"
+                className="navbar-brand footer-logo mt-3 mb-4"
                 />
         
                 <ul className="list-unstyled">
@@ -41,17 +41,17 @@ function Footer() {
               <div className="col-md-3 mx-auto">
         
                 {/* <!-- Links --> */}
-                <h5 className="font-weight-bold text-white text-white mt-3 mb-2">Our Community</h5>
+                <h5 className="font-weight-bold text-white footer-title text-white mt-3 mb-2">Our Community</h5>
         
                 <ul className="list-unstyled">
                   <li>
-                    <Link className="nav-link text-white" to="#about">About us</Link>
+                    <Link className="nav-link footer-item text-white" to="#about">About us</Link>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#member">Meet our Team</Link>
+                    <Link className="nav-link footer-item text-white" to="#member">Meet our Team</Link>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#contact">Contact us</Link>
+                    <Link className="nav-link footer-item text-white" to="#contact">Contact us</Link>
                   </li>
                   
                 </ul>
@@ -65,17 +65,17 @@ function Footer() {
               <div className="col-md-3 mx-auto">
         
                 {/* <!-- Links --> */}
-                <h5 className="font-weight-bold text-white mt-3 mb-2">The Intership</h5>
+                <h5 className="font-weight-bold footer-title text-white mt-3 mb-2">The Intership</h5>
         
                 <ul className="list-unstyled">
                   <li>
-                    <Link className="nav-link text-white" to="#about">About</Link>
+                    <Link className="nav-link footer-item text-white" to="#about">About</Link>
                   </li>
                   <li>
-                   <a href='https://forms.gle/cudtLhsYLHYHnovT7' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Apply Now</a>
+                   <a href='https://forms.gle/cudtLhsYLHYHnovT7' target="_blank" rel='noopener noreferrer' className="nav-link footer-item text-white">Apply Now</a>
                   </li>
                   <li>
-                    <Link className="nav-link text-white" to="#">Terms & policy</Link>
+                    <Link className="nav-link footer-item text-white" to="#">Terms & policy</Link>
                   </li>
                  
                 </ul>
@@ -89,20 +89,20 @@ function Footer() {
               <div className="col-md-3 mx-auto">
         
                 {/* <!-- Links --> */}
-                <h5 className="font-weight-bold text-white  mt-3 mb-2">Get in touch</h5>
+                <h5 className="font-weight-bold footer-title text-white  mt-3 mb-2">Get in touch</h5>
         
                 <ul className="list-unstyled">
                   <li>
-                   <a href='https://#' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Instagram</a>
+                   <a href='https://#' target="_blank" rel='noopener noreferrer' className="nav-link footer-item text-white">Instagram</a>
                   </li>
                   <li>
-                   <a href='https://twitter.com/chapafrik' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Twitter</a> 
+                   <a href='https://twitter.com/chapafrik' target="_blank" rel='noopener noreferrer' className="nav-link footer-item text-white">Twitter</a> 
                   </li>
                   <li>
-                   <a href='https://www.linkedin.com/company/chapafrik' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Linkedin</a>
+                   <a href='https://www.linkedin.com/company/chapafrik' target="_blank" rel='noopener noreferrer' className="nav-link footer-item text-white">Linkedin</a>
                   </li>
                   <li>
-                   <a href='https://join.slack.com/t/chapafrik/shared_invite/zt-nmkpw4dd-w_mIdMC39OoR_H4y_P6LpA' target="_blank" rel='noopener noreferrer' className="nav-link text-white">Slack</a>
+                   <a href='https://join.slack.com/t/chapafrik/shared_invite/zt-nmkpw4dd-w_mIdMC39OoR_H4y_P6LpA' target="_blank" rel='noopener noreferrer' className="nav-link footer-item text-white">Slack</a>
                   </li>
                 </ul>
         
@@ -117,7 +117,7 @@ function Footer() {
         
           {/* <!-- Copyright --> */}
           <div className="footer-copyright text-white py-3"> 
-          <p className="ml-4 text-white">© 2021 ChapAfrik. All Rights Reserved</p> 
+          <small className="ml-4 text-white">© 2021 ChapAfrik. All Rights Reserved</small> 
           </div>
           {/* <!-- Copyright --> */}
         
